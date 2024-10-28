@@ -198,10 +198,60 @@
     //     }
 
 
-    const numbers = [1,2,3,4]
+    // const numbers = [1,2,3,4]
 
-    /// 4 , 3 , 2 ,  1
+    // /// 4 , 3 , 2 ,  1
     
-    for (let i = numbers.length-1 ; i >= 0 ; i--) {
-      console.log(numbers[i])
-    }
+    // for (let i = numbers.length-1 ; i >= 0 ; i--) {
+    //   console.log(numbers[i])
+    // }
+
+    
+    /////////  loop inside onother loop ///  
+
+
+    //   for (let rep = 1 ; rep < 11 ; rep ++ ){
+    //       console.log(`lifting weight repetion ${rep} 🏋️‍♂️`)
+    //   }
+
+    // for (let exercice = 1 ; exercice <6 ; exercice++){
+
+
+    //     console.log(`---starting exercice ${exercice}`)
+
+
+    //     for (let rep = 1 ; rep <11 ; rep ++){
+    //         console.log(`exercice ${exercice} : lifting weight repetion ${rep} 🏋️‍♂️ `)
+    //     }
+    // }
+
+
+    ////// while loop :::::
+
+      //   for (let rep = 1 ; rep < 11 ; rep ++ ){
+    //       console.log(`lifting weight repetion ${rep} 🏋️‍♂️`)
+    //   }
+
+    // let rep = 1 ; 
+
+    // while (rep<11){
+  
+    //     console.log(`while : lifting weight repetion ${rep} 🏋️‍♂️`)
+    //     rep ++ ;
+    //     // rep = rep +1 
+    // }
+
+
+  //   let dice = Math.trunc((Math.random()*6)+1)
+
+
+  //   while (dice !== 6 ){
+  //   console.log(`you rolled a ${dice}`)
+  //   dice = Math.trunc((Math.random()*6)+1)
+  //   if (dice === 6 ){
+  //  console.log("you win !!! ")
+  //   }
+  //   }
+
+
+  
